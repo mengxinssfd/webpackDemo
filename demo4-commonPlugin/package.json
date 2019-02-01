@@ -1,0 +1,24 @@
+{
+  "name": "demo4-commonplugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "clean-webpack-plugin": "^1.0.1",
+    "ts-loader": "^4.5.0",
+    "typescript": "^2.9.2",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "babel-polyfill": "^6.26.0",
+    "preact": "^8.4.2"
+  }
+}

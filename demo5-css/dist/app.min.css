@@ -1,0 +1,14 @@
+.sass {
+  color: #00ff00; }
+  .sass .main {
+    color: #000000; }
+.scss {
+  background: pink; }
+  .scss .main {
+    background: red; }
+.stylus {
+  font-size: 20px;
+}
+.stylus .main {
+  background: #f00;
+}

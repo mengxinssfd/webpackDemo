@@ -1,0 +1,25 @@
+html {
+    font-size: 40px;
+    font-family: cursive;
+}
+
+span {
+    display: inline-block;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+span:hover {
+    color: white;
+    background: black;
+}
+
+.big-box {
+    border: 2px solid black;
+}
+
+#big-box {
+    border: 2px solid red;
+}

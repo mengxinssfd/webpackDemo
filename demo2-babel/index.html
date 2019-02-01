@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!--我觉得最好的方式还是cdn引polyfill,标签上加个nomodule属性.
+支持ES6的现代浏览器基本也支持这个属性,就不会引入这个标签链接的内容
+不支持ES6的浏览器,不认识这个属性,就会忽略它,把这个标签当作正常的script标签,引入polyfill-->
+  <!--不能加nomodule！！因为async,await搭配的函数，编译的话，支持es6语法的浏览器不加载的话会找不到对应的函数-->
+  <script src="./node_modules/babel-polyfill/dist/polyfill.min.js"></script>
+  <script src="dist/app.43002c36.js"></script>
+  <!--<script src="app.js"></script>-->
+</head>
+<body>
+
+</body>
+</html>
