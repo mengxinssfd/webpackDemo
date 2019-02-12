@@ -4,6 +4,7 @@ var Clean = require('clean-webpack-plugin');
 var ExtractText = require('extract-text-webpack-plugin');
 var ImageMinPlugin = require('imagemin-webpack-plugin').default;
 var px2rem = require('postcss-pxtorem');
+var htmlPlugin = require('html-webpack-plugin');
 module.exports = {
   mode: 'development',
   // mode: 'production',
@@ -15,6 +16,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     // publicPath: 'dist/',
     // publicPath: '/',
+    publicPath: '/',
     filename: '[name].js',
   },
   module: {
@@ -140,5 +142,12 @@ module.exports = {
     new webpack.ProvidePlugin({
       $: 'jquery',
     }),
+    new htmlPlugin({
+      template: 'index.html',
+      filename: 'index.html',
+    }),
   ],
+  devServer: {
+    port: 10000,
+  },
 };

@@ -56,7 +56,7 @@
 /******/ 	// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 	// Promise = chunk loading, 0 = chunk loaded
 /******/ 	var installedChunks = {
-/******/ 		"main": 0
+/******/ 		"index": 0
 /******/ 	};
 /******/
 /******/ 	var deferredModules = [];
@@ -136,7 +136,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "/dist/";
 /******/
 /******/ 	var jsonpArray = window["webpackJsonp"] = window["webpackJsonp"] || [];
 /******/ 	var oldJsonpFunction = jsonpArray.push.bind(jsonpArray);
@@ -147,44 +147,33 @@
 /******/
 /******/
 /******/ 	// add entry module to deferred list
-/******/ 	deferredModules.push(["./src/pages/main/main.ts","common"]);
+/******/ 	deferredModules.push(["./src/pages/index/app.ts","common"]);
 /******/ 	// run deferred modules when ready
 /******/ 	return checkDeferredModules();
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/common/style/test.less":
-/*!************************************!*\
-  !*** ./src/common/style/test.less ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./src/common/style/test.less?");
-
-/***/ }),
-
-/***/ "./src/pages/main/main.less":
-/*!**********************************!*\
-  !*** ./src/pages/main/main.less ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./src/pages/main/main.less?");
-
-/***/ }),
-
-/***/ "./src/pages/main/main.ts":
+/***/ "./src/pages/index/app.ts":
 /*!********************************!*\
-  !*** ./src/pages/main/main.ts ***!
+  !*** ./src/pages/index/app.ts ***!
   \********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__webpack_require__(/*! ../../common/style/base.less */ \"./src/common/style/base.less\");\r\n__webpack_require__(/*! ../../common/style/test.less */ \"./src/common/style/test.less\");\r\n__webpack_require__(/*! ./main.less */ \"./src/pages/main/main.less\");\r\nvar util_1 = __webpack_require__(/*! ../../common/ts/util */ \"./src/common/ts/util.ts\");\r\nwindow.onload = function () {\r\n    var b = \"hhhhhhhhhhhh\";\r\n    console.log(b);\r\n    util_1.test();\r\n};\r\n\n\n//# sourceURL=webpack:///./src/pages/main/main.ts?");
+eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__webpack_require__(/*! ../../common/style/base.less */ \"./src/common/style/base.less\");\r\n__webpack_require__(/*! ./index.less */ \"./src/pages/index/index.less\");\r\nvar util_1 = __webpack_require__(/*! ../../common/ts/util */ \"./src/common/ts/util.ts\");\r\nwindow.onload = function () {\r\n    var a = 'ggggggggggg';\r\n    console.log(a);\r\n    util_1.test();\r\n    console.log(\"test test test\");\r\n};\r\n\n\n//# sourceURL=webpack:///./src/pages/index/app.ts?");
+
+/***/ }),
+
+/***/ "./src/pages/index/index.less":
+/*!************************************!*\
+  !*** ./src/pages/index/index.less ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./src/pages/index/index.less?");
 
 /***/ })
 
