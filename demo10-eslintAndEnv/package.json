@@ -1,10 +1,11 @@
 {
-  "name": "demo10-eslint",
+  "name": "demo10-eslintAndEnv",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --open",
+    "dev": "webpack-dev-server --env development --open --config build/webpack.common.conf.js",
+    "build": "webpack --env production --config build/webpack.common.conf.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -26,6 +27,7 @@
     "less-loader": "^4.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^3.12.0",
-    "webpack-dev-server": "^2.11.3"
+    "webpack-dev-server": "^2.11.3",
+    "webpack-merge": "^4.2.1"
   }
 }
