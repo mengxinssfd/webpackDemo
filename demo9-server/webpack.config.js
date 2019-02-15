@@ -2,6 +2,8 @@ var path = require('path');
 const Clean = require('clean-webpack-plugin');
 const extractTextPlugin = require('extract-text-webpack-plugin');
 const htmlPlugin = require('html-webpack-plugin');
+const webpackBundle = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const compressionPlugin = require('compression-webpack-plugin');
 module.exports = {
   mode: 'development',// 浏览器会看到webpack的source
   // mode: 'production',
@@ -133,6 +135,12 @@ module.exports = {
       template: './src/pages/main/index.html',
       filename: 'main.html',
       chunks: ['main', 'common'],// 于loader一样，在后面的会插到前面去
+    }),
+    // new webpackBundle(),
+    new compressionPlugin({
+      filename: '[path].gz[query]',
+      test: /\.(js|css)$/i,
+      threshold: 1040,
     }),
   ],
   devServer: {

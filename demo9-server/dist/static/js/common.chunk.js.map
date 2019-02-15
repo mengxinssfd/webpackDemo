@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/common.chunk.js","sources":["webpack:///./src/common/style/base.less?ef4a","webpack:///./src/common/ts/util.ts"],"sourcesContent":["// removed by extract-text-webpack-plugin","export function test(): void {\r\n    console.log(\"heeeeee\");\r\n}"],"mappings":";;;;;;;;;AAAA;;;;;;;;;;;;;;ACAA;AACA;AACA;AAFA;;;;;A","sourceRoot":""}

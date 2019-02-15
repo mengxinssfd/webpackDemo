@@ -1,0 +1,2522 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.29.3",
+  "hash": "d41cd198643894821111",
+  "time": 3864,
+  "builtAt": 1550060256569,
+  "publicPath": "",
+  "outputPath": "D:\\project\\webpack\\demo9-server\\dist",
+  "assetsByChunkName": {
+    "common": [
+      "static/js/common.chunk.js",
+      "static/css/common.css",
+      "static/js/common.chunk.js.map",
+      "static/css/common.css.map"
+    ],
+    "index": [
+      "static/js/index.bundle.js",
+      "static/css/index.css",
+      "static/js/index.bundle.js.map",
+      "static/css/index.css.map"
+    ],
+    "main": [
+      "static/js/main.bundle.js",
+      "static/css/main.css",
+      "static/js/main.bundle.js.map",
+      "static/css/main.css.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "index.html",
+      "size": 442,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": true
+    },
+    {
+      "name": "main.html",
+      "size": 536,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": true
+    },
+    {
+      "name": "static/css/common.css",
+      "size": 66,
+      "chunks": [
+        "common"
+      ],
+      "chunkNames": [
+        "common"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "static/css/common.css.map",
+      "size": 319,
+      "chunks": [
+        "common"
+      ],
+      "chunkNames": [
+        "common"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "static/css/index.css",
+      "size": 115,
+      "chunks": [
+        "index"
+      ],
+      "chunkNames": [
+        "index"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "static/css/index.css.map",
+      "size": 448,
+      "chunks": [
+        "index"
+      ],
+      "chunkNames": [
+        "index"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "static/css/main.css",
+      "size": 156,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "static/css/main.css.map",
+      "size": 690,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "static/images/sprite-1_fec9.png",
+      "size": 1150,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": true
+    },
+    {
+      "name": "static/images/sprite-2_6e36.png",
+      "size": 1757,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": true
+    },
+    {
+      "name": "static/js/common.chunk.js",
+      "size": 801,
+      "chunks": [
+        "common"
+      ],
+      "chunkNames": [
+        "common"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "static/js/common.chunk.js.map",
+      "size": 360,
+      "chunks": [
+        "common"
+      ],
+      "chunkNames": [
+        "common"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "static/js/index.bundle.js",
+      "size": 7776,
+      "chunks": [
+        "index"
+      ],
+      "chunkNames": [
+        "index"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "static/js/index.bundle.js.map",
+      "size": 7264,
+      "chunks": [
+        "index"
+      ],
+      "chunkNames": [
+        "index"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "static/js/main.bundle.js",
+      "size": 7687,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "static/js/main.bundle.js.map",
+      "size": 6839,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "index": {
+      "chunks": [
+        "common",
+        "index"
+      ],
+      "assets": [
+        "static/js/common.chunk.js",
+        "static/css/common.css",
+        "static/js/common.chunk.js.map",
+        "static/css/common.css.map",
+        "static/js/index.bundle.js",
+        "static/css/index.css",
+        "static/js/index.bundle.js.map",
+        "static/css/index.css.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "main": {
+      "chunks": [
+        "common",
+        "main"
+      ],
+      "assets": [
+        "static/js/common.chunk.js",
+        "static/css/common.css",
+        "static/js/common.chunk.js.map",
+        "static/css/common.css.map",
+        "static/js/main.bundle.js",
+        "static/css/main.css",
+        "static/js/main.bundle.js.map",
+        "static/css/main.css.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "index": {
+      "chunks": [
+        "common",
+        "index"
+      ],
+      "assets": [
+        "static/js/common.chunk.js",
+        "static/css/common.css",
+        "static/js/common.chunk.js.map",
+        "static/css/common.css.map",
+        "static/js/index.bundle.js",
+        "static/css/index.css",
+        "static/js/index.bundle.js.map",
+        "static/css/index.css.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "main": {
+      "chunks": [
+        "common",
+        "main"
+      ],
+      "assets": [
+        "static/js/common.chunk.js",
+        "static/css/common.css",
+        "static/js/common.chunk.js.map",
+        "static/css/common.css.map",
+        "static/js/main.bundle.js",
+        "static/css/main.css",
+        "static/js/main.bundle.js.map",
+        "static/css/main.css.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "common",
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "reason": "split chunk (cache group: common) (name: common)",
+      "size": 193,
+      "names": [
+        "common"
+      ],
+      "files": [
+        "static/js/common.chunk.js",
+        "static/css/common.css",
+        "static/js/common.chunk.js.map",
+        "static/css/common.css.map"
+      ],
+      "hash": "fd06d3346adc0a22f377",
+      "siblings": [
+        "index",
+        "main"
+      ],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "./src/common/style/base.less",
+          "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js??ref--5-0!D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\base.less",
+          "name": "./src/common/style/base.less",
+          "index": null,
+          "index2": null,
+          "size": 41,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": null,
+          "source": "// removed by extract-text-webpack-plugin"
+        },
+        {
+          "id": "./src/common/ts/util.ts",
+          "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\ts-loader\\index.js!D:\\project\\webpack\\demo9-server\\src\\common\\ts\\util.ts",
+          "name": "./src/common/ts/util.ts",
+          "index": 4,
+          "index2": 3,
+          "size": 152,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "common"
+          ],
+          "issuer": "D:\\project\\webpack\\demo9-server\\node_modules\\ts-loader\\index.js!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\app.ts",
+          "issuerId": "./src/pages/index/app.ts",
+          "issuerName": "./src/pages/index/app.ts",
+          "issuerPath": [
+            {
+              "id": "./src/pages/index/app.ts",
+              "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\ts-loader\\index.js!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\app.ts",
+              "name": "./src/pages/index/app.ts",
+              "profile": {
+                "factory": 64,
+                "building": 1037
+              }
+            }
+          ],
+          "profile": {
+            "factory": 2351,
+            "building": 1328,
+            "dependencies": 7
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./src/pages/index/app.ts",
+              "moduleIdentifier": "D:\\project\\webpack\\demo9-server\\node_modules\\ts-loader\\index.js!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\app.ts",
+              "module": "./src/pages/index/app.ts",
+              "moduleName": "./src/pages/index/app.ts",
+              "type": "cjs require",
+              "userRequest": "../../common/ts/util",
+              "loc": "5:13-44"
+            },
+            {
+              "moduleId": "./src/pages/main/main.ts",
+              "moduleIdentifier": "D:\\project\\webpack\\demo9-server\\node_modules\\ts-loader\\index.js!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\main.ts",
+              "module": "./src/pages/main/main.ts",
+              "moduleName": "./src/pages/main/main.ts",
+              "type": "cjs require",
+              "userRequest": "../../common/ts/util",
+              "loc": "6:13-44"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nfunction test() {\r\n    console.log(\"heeeeee\");\r\n}\r\nexports.test = test;\r\n"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "index",
+          "request": "./src/pages/index/app.ts",
+          "reasons": []
+        },
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/pages/main/main.ts",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": "index",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 790,
+      "names": [
+        "index"
+      ],
+      "files": [
+        "static/js/index.bundle.js",
+        "static/css/index.css",
+        "static/js/index.bundle.js.map",
+        "static/css/index.css.map"
+      ],
+      "hash": "900b178f74645c4a97d1",
+      "siblings": [
+        "common"
+      ],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "./src/pages/index/app.ts",
+          "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\ts-loader\\index.js!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\app.ts",
+          "name": "./src/pages/index/app.ts",
+          "index": 0,
+          "index2": 4,
+          "size": 749,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "index"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 64,
+            "building": 1037
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/pages/index/app.ts",
+              "loc": "index"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nrequire(\"../../common/style/base.less\");\r\nrequire(\"./index.less\");\r\nvar util_1 = require(\"../../common/ts/util\");\r\nwindow.onload = function () {\r\n    var a = 'ggggggggggg';\r\n    console.log(a);\r\n    util_1.test();\r\n    console.log(\"test test test\");\r\n    var responText = '';\r\n    var url = 'comments/hotflow?id=4338853499653779&mid=4338853499653779&max_id_type=0';\r\n    var xhr = new XMLHttpRequest();\r\n    xhr.onreadystatechange = function () {\r\n        if (xhr.readyState === 4 && xhr.status === 200) {\r\n            responText = xhr.responseText;\r\n            console.log(\"ssss\", responText);\r\n        }\r\n    };\r\n    xhr.open('get', url, true);\r\n    xhr.send();\r\n};\r\n"
+        },
+        {
+          "id": "./src/pages/index/index.less",
+          "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js??ref--5-0!D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\index.less",
+          "name": "./src/pages/index/index.less",
+          "index": null,
+          "index2": null,
+          "size": 41,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": null,
+          "source": "// removed by extract-text-webpack-plugin"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "index",
+          "request": "./src/pages/index/app.ts",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": "main",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 422,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "static/js/main.bundle.js",
+        "static/css/main.css",
+        "static/js/main.bundle.js.map",
+        "static/css/main.css.map"
+      ],
+      "hash": "9a8c75b202c95f309f61",
+      "siblings": [
+        "common"
+      ],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "./src/common/style/test.less",
+          "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js??ref--5-0!D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\test.less",
+          "name": "./src/common/style/test.less",
+          "index": null,
+          "index2": null,
+          "size": 41,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": null,
+          "source": "// removed by extract-text-webpack-plugin"
+        },
+        {
+          "id": "./src/pages/main/main.less",
+          "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js??ref--5-0!D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\main.less",
+          "name": "./src/pages/main/main.less",
+          "index": null,
+          "index2": null,
+          "size": 41,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": null,
+          "source": "// removed by extract-text-webpack-plugin"
+        },
+        {
+          "id": "./src/pages/main/main.ts",
+          "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\ts-loader\\index.js!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\main.ts",
+          "name": "./src/pages/main/main.ts",
+          "index": 5,
+          "index2": 7,
+          "size": 340,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 396,
+            "building": 711,
+            "dependencies": 2345
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/pages/main/main.ts",
+              "loc": "main"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nrequire(\"../../common/style/base.less\");\r\nrequire(\"../../common/style/test.less\");\r\nrequire(\"./main.less\");\r\nvar util_1 = require(\"../../common/ts/util\");\r\nwindow.onload = function () {\r\n    var b = \"hhhhhhhhhhhh\";\r\n    console.log(b);\r\n    util_1.test();\r\n};\r\n"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/pages/main/main.ts",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "./node_modules/css-loader/dist/runtime/api.js",
+      "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\runtime\\api.js",
+      "name": "./node_modules/css-loader/dist/runtime/api.js",
+      "index": 2,
+      "index2": 0,
+      "size": 2406,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "issuer": "D:\\project\\webpack\\demo9-server\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js??ref--5-0!D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\main.less",
+      "issuerId": "./src/pages/main/main.less",
+      "issuerName": "./src/pages/main/main.less",
+      "issuerPath": [
+        {
+          "id": "./src/pages/main/main.less",
+          "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js??ref--5-0!D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\main.less",
+          "name": "./src/pages/main/main.less"
+        }
+      ],
+      "profile": {
+        "factory": 10,
+        "building": 47
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2,
+      "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return '@media ' + item[2] + '{' + content + '}';\n      } else {\n        return content;\n      }\n    }).join('');\n  }; // import a list of modules into the list\n\n\n  list.i = function (modules, mediaQuery) {\n    if (typeof modules === 'string') {\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    for (var i = 0; i < this.length; i++) {\n      var id = this[i][0];\n\n      if (id != null) {\n        alreadyImportedModules[id] = true;\n      }\n    }\n\n    for (i = 0; i < modules.length; i++) {\n      var item = modules[i]; // skip already imported module\n      // this implementation is not 100% perfect for weird media query combinations\n      // when a module is imported multiple times with different media queries.\n      // I hope this will never occur (Hey this way we have smaller bundles)\n\n      if (item[0] == null || !alreadyImportedModules[item[0]]) {\n        if (mediaQuery && !item[2]) {\n          item[2] = mediaQuery;\n        } else if (mediaQuery) {\n          item[2] = '(' + item[2] + ') and (' + mediaQuery + ')';\n        }\n\n        list.push(item);\n      }\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || '';\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */';\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n  return '/*# ' + data + ' */';\n}"
+    },
+    {
+      "id": "./src/common/style/base.less",
+      "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js??ref--5-0!D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\base.less",
+      "name": "./src/common/style/base.less",
+      "index": null,
+      "index2": null,
+      "size": 41,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": null,
+      "source": "// removed by extract-text-webpack-plugin"
+    },
+    {
+      "id": "./src/common/style/test.less",
+      "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js??ref--5-0!D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\test.less",
+      "name": "./src/common/style/test.less",
+      "index": null,
+      "index2": null,
+      "size": 41,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": null,
+      "source": "// removed by extract-text-webpack-plugin"
+    },
+    {
+      "id": "./src/common/ts/util.ts",
+      "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\ts-loader\\index.js!D:\\project\\webpack\\demo9-server\\src\\common\\ts\\util.ts",
+      "name": "./src/common/ts/util.ts",
+      "index": 4,
+      "index2": 3,
+      "size": 152,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "common"
+      ],
+      "issuer": "D:\\project\\webpack\\demo9-server\\node_modules\\ts-loader\\index.js!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\app.ts",
+      "issuerId": "./src/pages/index/app.ts",
+      "issuerName": "./src/pages/index/app.ts",
+      "issuerPath": [
+        {
+          "id": "./src/pages/index/app.ts",
+          "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\ts-loader\\index.js!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\app.ts",
+          "name": "./src/pages/index/app.ts",
+          "profile": {
+            "factory": 64,
+            "building": 1037
+          }
+        }
+      ],
+      "profile": {
+        "factory": 2351,
+        "building": 1328,
+        "dependencies": 7
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./src/pages/index/app.ts",
+          "moduleIdentifier": "D:\\project\\webpack\\demo9-server\\node_modules\\ts-loader\\index.js!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\app.ts",
+          "module": "./src/pages/index/app.ts",
+          "moduleName": "./src/pages/index/app.ts",
+          "type": "cjs require",
+          "userRequest": "../../common/ts/util",
+          "loc": "5:13-44"
+        },
+        {
+          "moduleId": "./src/pages/main/main.ts",
+          "moduleIdentifier": "D:\\project\\webpack\\demo9-server\\node_modules\\ts-loader\\index.js!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\main.ts",
+          "module": "./src/pages/main/main.ts",
+          "moduleName": "./src/pages/main/main.ts",
+          "type": "cjs require",
+          "userRequest": "../../common/ts/util",
+          "loc": "6:13-44"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nfunction test() {\r\n    console.log(\"heeeeee\");\r\n}\r\nexports.test = test;\r\n"
+    },
+    {
+      "id": "./src/pages/index/app.ts",
+      "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\ts-loader\\index.js!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\app.ts",
+      "name": "./src/pages/index/app.ts",
+      "index": 0,
+      "index2": 4,
+      "size": 749,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "index"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 64,
+        "building": 1037
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./src/pages/index/app.ts",
+          "loc": "index"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nrequire(\"../../common/style/base.less\");\r\nrequire(\"./index.less\");\r\nvar util_1 = require(\"../../common/ts/util\");\r\nwindow.onload = function () {\r\n    var a = 'ggggggggggg';\r\n    console.log(a);\r\n    util_1.test();\r\n    console.log(\"test test test\");\r\n    var responText = '';\r\n    var url = 'comments/hotflow?id=4338853499653779&mid=4338853499653779&max_id_type=0';\r\n    var xhr = new XMLHttpRequest();\r\n    xhr.onreadystatechange = function () {\r\n        if (xhr.readyState === 4 && xhr.status === 200) {\r\n            responText = xhr.responseText;\r\n            console.log(\"ssss\", responText);\r\n        }\r\n    };\r\n    xhr.open('get', url, true);\r\n    xhr.send();\r\n};\r\n"
+    },
+    {
+      "id": "./src/pages/index/index.less",
+      "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js??ref--5-0!D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\index.less",
+      "name": "./src/pages/index/index.less",
+      "index": null,
+      "index2": null,
+      "size": 41,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": null,
+      "source": "// removed by extract-text-webpack-plugin"
+    },
+    {
+      "id": "./src/pages/main/main.less",
+      "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\extract-text-webpack-plugin\\dist\\loader.js??ref--5-0!D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\main.less",
+      "name": "./src/pages/main/main.less",
+      "index": null,
+      "index2": null,
+      "size": 41,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": null,
+      "source": "// removed by extract-text-webpack-plugin"
+    },
+    {
+      "id": "./src/pages/main/main.ts",
+      "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\ts-loader\\index.js!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\main.ts",
+      "name": "./src/pages/main/main.ts",
+      "index": 5,
+      "index2": 7,
+      "size": 340,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 396,
+        "building": 711,
+        "dependencies": 2345
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./src/pages/main/main.ts",
+          "loc": "main"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nrequire(\"../../common/style/base.less\");\r\nrequire(\"../../common/style/test.less\");\r\nrequire(\"./main.less\");\r\nvar util_1 = require(\"../../common/ts/util\");\r\nwindow.onload = function () {\r\n    var b = \"hhhhhhhhhhhh\";\r\n    console.log(b);\r\n    util_1.test();\r\n};\r\n"
+    }
+  ],
+  "filteredModules": 0,
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "D:\\project\\webpack\\demo9-server\\dist",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "extract-text-webpack-plugin-output-filename"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "extract-text-webpack-plugin-output-filename"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 2942,
+          "names": [],
+          "files": [
+            "extract-text-webpack-plugin-output-filename"
+          ],
+          "hash": "949dcc79a2f4c8943e39",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/common/style/base.less",
+              "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\base.less",
+              "name": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/common/style/base.less",
+              "index": 0,
+              "index2": 1,
+              "size": 536,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "profile": {
+                "factory": 4,
+                "building": 10
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "!!D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\base.less"
+                }
+              ],
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "exports = module.exports = require(\"../../../node_modules/css-loader/dist/runtime/api.js\")(true);\n// Module\nexports.push([module.id, \"html {\\n  font-size: 16px;\\n}\\n\", \"\",{\"version\":3,\"sources\":[\"D:/project/webpack/demo9-server/src/common/style/D:/project/webpack/demo9-server/src/common/style/base.less\",\"D:/project/webpack/demo9-server/src/common/style/base.less\"],\"names\":[],\"mappings\":\"AAAA;EACE,eAAA;ACCF\",\"file\":\"base.less\",\"sourcesContent\":[\"html {\\n  font-size: 16px;\\n}\",\"html {\\n  font-size: 16px;\\n}\\n\"],\"sourceRoot\":\"\"}]);\n\n"
+            },
+            {
+              "id": "./node_modules/css-loader/dist/runtime/api.js",
+              "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "name": "./node_modules/css-loader/dist/runtime/api.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2406,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\base.less",
+              "issuerId": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/common/style/base.less",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/common/style/base.less",
+              "issuerPath": [
+                {
+                  "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/common/style/base.less",
+                  "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\base.less",
+                  "name": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/common/style/base.less",
+                  "profile": {
+                    "factory": 4,
+                    "building": 10
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 0,
+                "building": 13
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/common/style/base.less",
+                  "moduleIdentifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\base.less",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/common/style/base.less",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/common/style/base.less",
+                  "type": "cjs require",
+                  "userRequest": "../../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "1:27-90"
+                }
+              ],
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return '@media ' + item[2] + '{' + content + '}';\n      } else {\n        return content;\n      }\n    }).join('');\n  }; // import a list of modules into the list\n\n\n  list.i = function (modules, mediaQuery) {\n    if (typeof modules === 'string') {\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    for (var i = 0; i < this.length; i++) {\n      var id = this[i][0];\n\n      if (id != null) {\n        alreadyImportedModules[id] = true;\n      }\n    }\n\n    for (i = 0; i < modules.length; i++) {\n      var item = modules[i]; // skip already imported module\n      // this implementation is not 100% perfect for weird media query combinations\n      // when a module is imported multiple times with different media queries.\n      // I hope this will never occur (Hey this way we have smaller bundles)\n\n      if (item[0] == null || !alreadyImportedModules[item[0]]) {\n        if (mediaQuery && !item[2]) {\n          item[2] = mediaQuery;\n        } else if (mediaQuery) {\n          item[2] = '(' + item[2] + ') and (' + mediaQuery + ')';\n        }\n\n        list.push(item);\n      }\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || '';\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */';\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n  return '/*# ' + data + ' */';\n}"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "",
+              "request": "!!D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\base.less",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/common/style/base.less",
+          "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\base.less",
+          "name": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/common/style/base.less",
+          "index": 0,
+          "index2": 1,
+          "size": 536,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 4,
+            "building": 10
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "!!D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\base.less"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "exports = module.exports = require(\"../../../node_modules/css-loader/dist/runtime/api.js\")(true);\n// Module\nexports.push([module.id, \"html {\\n  font-size: 16px;\\n}\\n\", \"\",{\"version\":3,\"sources\":[\"D:/project/webpack/demo9-server/src/common/style/D:/project/webpack/demo9-server/src/common/style/base.less\",\"D:/project/webpack/demo9-server/src/common/style/base.less\"],\"names\":[],\"mappings\":\"AAAA;EACE,eAAA;ACCF\",\"file\":\"base.less\",\"sourcesContent\":[\"html {\\n  font-size: 16px;\\n}\",\"html {\\n  font-size: 16px;\\n}\\n\"],\"sourceRoot\":\"\"}]);\n\n"
+        },
+        {
+          "id": "./node_modules/css-loader/dist/runtime/api.js",
+          "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "index": 1,
+          "index2": 0,
+          "size": 2406,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\base.less",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/common/style/base.less",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/common/style/base.less",
+          "issuerPath": [
+            {
+              "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/common/style/base.less",
+              "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\base.less",
+              "name": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/common/style/base.less",
+              "profile": {
+                "factory": 4,
+                "building": 10
+              }
+            }
+          ],
+          "profile": {
+            "factory": 0,
+            "building": 13
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/common/style/base.less",
+              "moduleIdentifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\base.less",
+              "module": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/common/style/base.less",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/common/style/base.less",
+              "type": "cjs require",
+              "userRequest": "../../../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "1:27-90"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return '@media ' + item[2] + '{' + content + '}';\n      } else {\n        return content;\n      }\n    }).join('');\n  }; // import a list of modules into the list\n\n\n  list.i = function (modules, mediaQuery) {\n    if (typeof modules === 'string') {\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    for (var i = 0; i < this.length; i++) {\n      var id = this[i][0];\n\n      if (id != null) {\n        alreadyImportedModules[id] = true;\n      }\n    }\n\n    for (i = 0; i < modules.length; i++) {\n      var item = modules[i]; // skip already imported module\n      // this implementation is not 100% perfect for weird media query combinations\n      // when a module is imported multiple times with different media queries.\n      // I hope this will never occur (Hey this way we have smaller bundles)\n\n      if (item[0] == null || !alreadyImportedModules[item[0]]) {\n        if (mediaQuery && !item[2]) {\n          item[2] = mediaQuery;\n        } else if (mediaQuery) {\n          item[2] = '(' + item[2] + ') and (' + mediaQuery + ')';\n        }\n\n        list.push(item);\n      }\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || '';\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */';\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n  return '/*# ' + data + ' */';\n}"
+        }
+      ],
+      "filteredModules": 0,
+      "children": [],
+      "name": "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/less-loader/dist/cjs.js??ref--5-2!src/common/style/base.less"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "D:\\project\\webpack\\demo9-server\\dist",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "extract-text-webpack-plugin-output-filename"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "extract-text-webpack-plugin-output-filename"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 2952,
+          "names": [],
+          "files": [
+            "extract-text-webpack-plugin-output-filename"
+          ],
+          "hash": "5fbf61ae9beb8896bb69",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/common/style/test.less",
+              "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\test.less",
+              "name": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/common/style/test.less",
+              "index": 0,
+              "index2": 1,
+              "size": 546,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "profile": {
+                "factory": 6,
+                "building": 8
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "!!D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\test.less"
+                }
+              ],
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "exports = module.exports = require(\"../../../node_modules/css-loader/dist/runtime/api.js\")(true);\n// Module\nexports.push([module.id, \".test {\\n  background: black;\\n}\\n\", \"\",{\"version\":3,\"sources\":[\"D:/project/webpack/demo9-server/src/common/style/D:/project/webpack/demo9-server/src/common/style/test.less\",\"D:/project/webpack/demo9-server/src/common/style/test.less\"],\"names\":[],\"mappings\":\"AAAA;EACE,iBAAA;ACCF\",\"file\":\"test.less\",\"sourcesContent\":[\".test {\\n  background: black;\\n}\",\".test {\\n  background: black;\\n}\\n\"],\"sourceRoot\":\"\"}]);\n\n"
+            },
+            {
+              "id": "./node_modules/css-loader/dist/runtime/api.js",
+              "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "name": "./node_modules/css-loader/dist/runtime/api.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2406,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\test.less",
+              "issuerId": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/common/style/test.less",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/common/style/test.less",
+              "issuerPath": [
+                {
+                  "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/common/style/test.less",
+                  "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\test.less",
+                  "name": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/common/style/test.less",
+                  "profile": {
+                    "factory": 6,
+                    "building": 8
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 2,
+                "building": 7
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/common/style/test.less",
+                  "moduleIdentifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\test.less",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/common/style/test.less",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/common/style/test.less",
+                  "type": "cjs require",
+                  "userRequest": "../../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "1:27-90"
+                }
+              ],
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return '@media ' + item[2] + '{' + content + '}';\n      } else {\n        return content;\n      }\n    }).join('');\n  }; // import a list of modules into the list\n\n\n  list.i = function (modules, mediaQuery) {\n    if (typeof modules === 'string') {\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    for (var i = 0; i < this.length; i++) {\n      var id = this[i][0];\n\n      if (id != null) {\n        alreadyImportedModules[id] = true;\n      }\n    }\n\n    for (i = 0; i < modules.length; i++) {\n      var item = modules[i]; // skip already imported module\n      // this implementation is not 100% perfect for weird media query combinations\n      // when a module is imported multiple times with different media queries.\n      // I hope this will never occur (Hey this way we have smaller bundles)\n\n      if (item[0] == null || !alreadyImportedModules[item[0]]) {\n        if (mediaQuery && !item[2]) {\n          item[2] = mediaQuery;\n        } else if (mediaQuery) {\n          item[2] = '(' + item[2] + ') and (' + mediaQuery + ')';\n        }\n\n        list.push(item);\n      }\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || '';\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */';\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n  return '/*# ' + data + ' */';\n}"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "",
+              "request": "!!D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\test.less",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/common/style/test.less",
+          "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\test.less",
+          "name": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/common/style/test.less",
+          "index": 0,
+          "index2": 1,
+          "size": 546,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 6,
+            "building": 8
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "!!D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\test.less"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "exports = module.exports = require(\"../../../node_modules/css-loader/dist/runtime/api.js\")(true);\n// Module\nexports.push([module.id, \".test {\\n  background: black;\\n}\\n\", \"\",{\"version\":3,\"sources\":[\"D:/project/webpack/demo9-server/src/common/style/D:/project/webpack/demo9-server/src/common/style/test.less\",\"D:/project/webpack/demo9-server/src/common/style/test.less\"],\"names\":[],\"mappings\":\"AAAA;EACE,iBAAA;ACCF\",\"file\":\"test.less\",\"sourcesContent\":[\".test {\\n  background: black;\\n}\",\".test {\\n  background: black;\\n}\\n\"],\"sourceRoot\":\"\"}]);\n\n"
+        },
+        {
+          "id": "./node_modules/css-loader/dist/runtime/api.js",
+          "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "index": 1,
+          "index2": 0,
+          "size": 2406,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\test.less",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/common/style/test.less",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/common/style/test.less",
+          "issuerPath": [
+            {
+              "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/common/style/test.less",
+              "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\test.less",
+              "name": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/common/style/test.less",
+              "profile": {
+                "factory": 6,
+                "building": 8
+              }
+            }
+          ],
+          "profile": {
+            "factory": 2,
+            "building": 7
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/common/style/test.less",
+              "moduleIdentifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\common\\style\\test.less",
+              "module": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/common/style/test.less",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/common/style/test.less",
+              "type": "cjs require",
+              "userRequest": "../../../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "1:27-90"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return '@media ' + item[2] + '{' + content + '}';\n      } else {\n        return content;\n      }\n    }).join('');\n  }; // import a list of modules into the list\n\n\n  list.i = function (modules, mediaQuery) {\n    if (typeof modules === 'string') {\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    for (var i = 0; i < this.length; i++) {\n      var id = this[i][0];\n\n      if (id != null) {\n        alreadyImportedModules[id] = true;\n      }\n    }\n\n    for (i = 0; i < modules.length; i++) {\n      var item = modules[i]; // skip already imported module\n      // this implementation is not 100% perfect for weird media query combinations\n      // when a module is imported multiple times with different media queries.\n      // I hope this will never occur (Hey this way we have smaller bundles)\n\n      if (item[0] == null || !alreadyImportedModules[item[0]]) {\n        if (mediaQuery && !item[2]) {\n          item[2] = mediaQuery;\n        } else if (mediaQuery) {\n          item[2] = '(' + item[2] + ') and (' + mediaQuery + ')';\n        }\n\n        list.push(item);\n      }\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || '';\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */';\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n  return '/*# ' + data + ' */';\n}"
+        }
+      ],
+      "filteredModules": 0,
+      "children": [],
+      "name": "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/less-loader/dist/cjs.js??ref--5-2!src/common/style/test.less"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "D:\\project\\webpack\\demo9-server\\dist",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "extract-text-webpack-plugin-output-filename"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "extract-text-webpack-plugin-output-filename"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 3138,
+          "names": [],
+          "files": [
+            "extract-text-webpack-plugin-output-filename"
+          ],
+          "hash": "da79b58053f63900f549",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/pages/index/index.less",
+              "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\index.less",
+              "name": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/pages/index/index.less",
+              "index": 0,
+              "index2": 1,
+              "size": 732,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "profile": {
+                "factory": 7,
+                "building": 8
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "!!D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\index.less"
+                }
+              ],
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "exports = module.exports = require(\"../../../node_modules/css-loader/dist/runtime/api.js\")(true);\n// Module\nexports.push([module.id, \".app {\\n  font-size: 20px;\\n}\\n.app .test {\\n  color: red;\\n  background: black;\\n}\\n\", \"\",{\"version\":3,\"sources\":[\"D:/project/webpack/demo9-server/src/pages/index/D:/project/webpack/demo9-server/src/pages/index/index.less\",\"D:/project/webpack/demo9-server/src/pages/index/index.less\"],\"names\":[],\"mappings\":\"AAAA;EACE,eAAA;ACCF;ADFA;EAGI,UAAA;EACA,iBAAA;ACEJ\",\"file\":\"index.less\",\"sourcesContent\":[\".app {\\n  font-size: 20px;\\n  .test {\\n    color: red;\\n    background: black;\\n  }\\n}\",\".app {\\n  font-size: 20px;\\n}\\n.app .test {\\n  color: red;\\n  background: black;\\n}\\n\"],\"sourceRoot\":\"\"}]);\n\n"
+            },
+            {
+              "id": "./node_modules/css-loader/dist/runtime/api.js",
+              "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "name": "./node_modules/css-loader/dist/runtime/api.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2406,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\index.less",
+              "issuerId": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/pages/index/index.less",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/pages/index/index.less",
+              "issuerPath": [
+                {
+                  "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/pages/index/index.less",
+                  "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\index.less",
+                  "name": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/pages/index/index.less",
+                  "profile": {
+                    "factory": 7,
+                    "building": 8
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 3,
+                "building": 4
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/pages/index/index.less",
+                  "moduleIdentifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\index.less",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/pages/index/index.less",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/pages/index/index.less",
+                  "type": "cjs require",
+                  "userRequest": "../../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "1:27-90"
+                }
+              ],
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return '@media ' + item[2] + '{' + content + '}';\n      } else {\n        return content;\n      }\n    }).join('');\n  }; // import a list of modules into the list\n\n\n  list.i = function (modules, mediaQuery) {\n    if (typeof modules === 'string') {\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    for (var i = 0; i < this.length; i++) {\n      var id = this[i][0];\n\n      if (id != null) {\n        alreadyImportedModules[id] = true;\n      }\n    }\n\n    for (i = 0; i < modules.length; i++) {\n      var item = modules[i]; // skip already imported module\n      // this implementation is not 100% perfect for weird media query combinations\n      // when a module is imported multiple times with different media queries.\n      // I hope this will never occur (Hey this way we have smaller bundles)\n\n      if (item[0] == null || !alreadyImportedModules[item[0]]) {\n        if (mediaQuery && !item[2]) {\n          item[2] = mediaQuery;\n        } else if (mediaQuery) {\n          item[2] = '(' + item[2] + ') and (' + mediaQuery + ')';\n        }\n\n        list.push(item);\n      }\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || '';\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */';\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n  return '/*# ' + data + ' */';\n}"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "",
+              "request": "!!D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\index.less",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/pages/index/index.less",
+          "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\index.less",
+          "name": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/pages/index/index.less",
+          "index": 0,
+          "index2": 1,
+          "size": 732,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 7,
+            "building": 8
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "!!D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\index.less"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "exports = module.exports = require(\"../../../node_modules/css-loader/dist/runtime/api.js\")(true);\n// Module\nexports.push([module.id, \".app {\\n  font-size: 20px;\\n}\\n.app .test {\\n  color: red;\\n  background: black;\\n}\\n\", \"\",{\"version\":3,\"sources\":[\"D:/project/webpack/demo9-server/src/pages/index/D:/project/webpack/demo9-server/src/pages/index/index.less\",\"D:/project/webpack/demo9-server/src/pages/index/index.less\"],\"names\":[],\"mappings\":\"AAAA;EACE,eAAA;ACCF;ADFA;EAGI,UAAA;EACA,iBAAA;ACEJ\",\"file\":\"index.less\",\"sourcesContent\":[\".app {\\n  font-size: 20px;\\n  .test {\\n    color: red;\\n    background: black;\\n  }\\n}\",\".app {\\n  font-size: 20px;\\n}\\n.app .test {\\n  color: red;\\n  background: black;\\n}\\n\"],\"sourceRoot\":\"\"}]);\n\n"
+        },
+        {
+          "id": "./node_modules/css-loader/dist/runtime/api.js",
+          "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "index": 1,
+          "index2": 0,
+          "size": 2406,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\index.less",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/pages/index/index.less",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/pages/index/index.less",
+          "issuerPath": [
+            {
+              "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/pages/index/index.less",
+              "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\index.less",
+              "name": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/pages/index/index.less",
+              "profile": {
+                "factory": 7,
+                "building": 8
+              }
+            }
+          ],
+          "profile": {
+            "factory": 3,
+            "building": 4
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/pages/index/index.less",
+              "moduleIdentifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\index.less",
+              "module": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/pages/index/index.less",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/pages/index/index.less",
+              "type": "cjs require",
+              "userRequest": "../../../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "1:27-90"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return '@media ' + item[2] + '{' + content + '}';\n      } else {\n        return content;\n      }\n    }).join('');\n  }; // import a list of modules into the list\n\n\n  list.i = function (modules, mediaQuery) {\n    if (typeof modules === 'string') {\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    for (var i = 0; i < this.length; i++) {\n      var id = this[i][0];\n\n      if (id != null) {\n        alreadyImportedModules[id] = true;\n      }\n    }\n\n    for (i = 0; i < modules.length; i++) {\n      var item = modules[i]; // skip already imported module\n      // this implementation is not 100% perfect for weird media query combinations\n      // when a module is imported multiple times with different media queries.\n      // I hope this will never occur (Hey this way we have smaller bundles)\n\n      if (item[0] == null || !alreadyImportedModules[item[0]]) {\n        if (mediaQuery && !item[2]) {\n          item[2] = mediaQuery;\n        } else if (mediaQuery) {\n          item[2] = '(' + item[2] + ') and (' + mediaQuery + ')';\n        }\n\n        list.push(item);\n      }\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || '';\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */';\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n  return '/*# ' + data + ' */';\n}"
+        }
+      ],
+      "filteredModules": 0,
+      "children": [],
+      "name": "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/less-loader/dist/cjs.js??ref--5-2!src/pages/index/index.less"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "D:\\project\\webpack\\demo9-server\\dist",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "extract-text-webpack-plugin-output-filename"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "extract-text-webpack-plugin-output-filename"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 3176,
+          "names": [],
+          "files": [
+            "extract-text-webpack-plugin-output-filename"
+          ],
+          "hash": "9dc2e52d136dcda914d7",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/pages/main/main.less",
+              "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\main.less",
+              "name": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/pages/main/main.less",
+              "index": 0,
+              "index2": 1,
+              "size": 770,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "profile": {
+                "factory": 5,
+                "building": 9
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "!!D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\main.less"
+                }
+              ],
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "exports = module.exports = require(\"../../../node_modules/css-loader/dist/runtime/api.js\")(true);\n// Module\nexports.push([module.id, \".main {\\n  color: white;\\n  background: red;\\n}\\n.red {\\n  color: black;\\n  font-size: 20px;\\n}\\n\", \"\",{\"version\":3,\"sources\":[\"D:/project/webpack/demo9-server/src/pages/main/D:/project/webpack/demo9-server/src/pages/main/main.less\",\"D:/project/webpack/demo9-server/src/pages/main/main.less\"],\"names\":[],\"mappings\":\"AAAA;EACE,YAAA;EACA,eAAA;ACCF;ADEA;EACE,YAAA;EACA,eAAA;ACAF\",\"file\":\"main.less\",\"sourcesContent\":[\".main {\\n  color: white;\\n  background: red;\\n}\\n\\n.red {\\n  color: black;\\n  font-size: 20px;\\n}\",\".main {\\n  color: white;\\n  background: red;\\n}\\n.red {\\n  color: black;\\n  font-size: 20px;\\n}\\n\"],\"sourceRoot\":\"\"}]);\n\n"
+            },
+            {
+              "id": "./node_modules/css-loader/dist/runtime/api.js",
+              "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "name": "./node_modules/css-loader/dist/runtime/api.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2406,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\main.less",
+              "issuerId": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/pages/main/main.less",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/pages/main/main.less",
+              "issuerPath": [
+                {
+                  "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/pages/main/main.less",
+                  "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\main.less",
+                  "name": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/pages/main/main.less",
+                  "profile": {
+                    "factory": 5,
+                    "building": 9
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 1,
+                "building": 10
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/pages/main/main.less",
+                  "moduleIdentifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\main.less",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/pages/main/main.less",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/pages/main/main.less",
+                  "type": "cjs require",
+                  "userRequest": "../../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "1:27-90"
+                }
+              ],
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return '@media ' + item[2] + '{' + content + '}';\n      } else {\n        return content;\n      }\n    }).join('');\n  }; // import a list of modules into the list\n\n\n  list.i = function (modules, mediaQuery) {\n    if (typeof modules === 'string') {\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    for (var i = 0; i < this.length; i++) {\n      var id = this[i][0];\n\n      if (id != null) {\n        alreadyImportedModules[id] = true;\n      }\n    }\n\n    for (i = 0; i < modules.length; i++) {\n      var item = modules[i]; // skip already imported module\n      // this implementation is not 100% perfect for weird media query combinations\n      // when a module is imported multiple times with different media queries.\n      // I hope this will never occur (Hey this way we have smaller bundles)\n\n      if (item[0] == null || !alreadyImportedModules[item[0]]) {\n        if (mediaQuery && !item[2]) {\n          item[2] = mediaQuery;\n        } else if (mediaQuery) {\n          item[2] = '(' + item[2] + ') and (' + mediaQuery + ')';\n        }\n\n        list.push(item);\n      }\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || '';\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */';\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n  return '/*# ' + data + ' */';\n}"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "",
+              "request": "!!D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\main.less",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/pages/main/main.less",
+          "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\main.less",
+          "name": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/pages/main/main.less",
+          "index": 0,
+          "index2": 1,
+          "size": 770,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 5,
+            "building": 9
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "!!D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\main.less"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "exports = module.exports = require(\"../../../node_modules/css-loader/dist/runtime/api.js\")(true);\n// Module\nexports.push([module.id, \".main {\\n  color: white;\\n  background: red;\\n}\\n.red {\\n  color: black;\\n  font-size: 20px;\\n}\\n\", \"\",{\"version\":3,\"sources\":[\"D:/project/webpack/demo9-server/src/pages/main/D:/project/webpack/demo9-server/src/pages/main/main.less\",\"D:/project/webpack/demo9-server/src/pages/main/main.less\"],\"names\":[],\"mappings\":\"AAAA;EACE,YAAA;EACA,eAAA;ACCF;ADEA;EACE,YAAA;EACA,eAAA;ACAF\",\"file\":\"main.less\",\"sourcesContent\":[\".main {\\n  color: white;\\n  background: red;\\n}\\n\\n.red {\\n  color: black;\\n  font-size: 20px;\\n}\",\".main {\\n  color: white;\\n  background: red;\\n}\\n.red {\\n  color: black;\\n  font-size: 20px;\\n}\\n\"],\"sourceRoot\":\"\"}]);\n\n"
+        },
+        {
+          "id": "./node_modules/css-loader/dist/runtime/api.js",
+          "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "index": 1,
+          "index2": 0,
+          "size": 2406,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\main.less",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/pages/main/main.less",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/pages/main/main.less",
+          "issuerPath": [
+            {
+              "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/pages/main/main.less",
+              "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\main.less",
+              "name": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/pages/main/main.less",
+              "profile": {
+                "factory": 5,
+                "building": 9
+              }
+            }
+          ],
+          "profile": {
+            "factory": 1,
+            "building": 10
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./node_modules/css-loader/dist/cjs.js?!./node_modules/less-loader/dist/cjs.js?!./src/pages/main/main.less",
+              "moduleIdentifier": "D:\\project\\webpack\\demo9-server\\node_modules\\css-loader\\dist\\cjs.js??ref--5-1!D:\\project\\webpack\\demo9-server\\node_modules\\less-loader\\dist\\cjs.js??ref--5-2!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\main.less",
+              "module": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/pages/main/main.less",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/pages/main/main.less",
+              "type": "cjs require",
+              "userRequest": "../../../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "1:27-90"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return '@media ' + item[2] + '{' + content + '}';\n      } else {\n        return content;\n      }\n    }).join('');\n  }; // import a list of modules into the list\n\n\n  list.i = function (modules, mediaQuery) {\n    if (typeof modules === 'string') {\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    for (var i = 0; i < this.length; i++) {\n      var id = this[i][0];\n\n      if (id != null) {\n        alreadyImportedModules[id] = true;\n      }\n    }\n\n    for (i = 0; i < modules.length; i++) {\n      var item = modules[i]; // skip already imported module\n      // this implementation is not 100% perfect for weird media query combinations\n      // when a module is imported multiple times with different media queries.\n      // I hope this will never occur (Hey this way we have smaller bundles)\n\n      if (item[0] == null || !alreadyImportedModules[item[0]]) {\n        if (mediaQuery && !item[2]) {\n          item[2] = mediaQuery;\n        } else if (mediaQuery) {\n          item[2] = '(' + item[2] + ') and (' + mediaQuery + ')';\n        }\n\n        list.push(item);\n      }\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || '';\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */';\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n  return '/*# ' + data + ' */';\n}"
+        }
+      ],
+      "filteredModules": 0,
+      "children": [],
+      "name": "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/less-loader/dist/cjs.js??ref--5-2!src/pages/main/main.less"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "D:\\project\\webpack\\demo9-server\\dist",
+      "assetsByChunkName": {},
+      "assets": [
+        {
+          "name": "index.html",
+          "size": 4919,
+          "chunks": [
+            0
+          ],
+          "chunkNames": [],
+          "emitted": false
+        },
+        {
+          "name": "static/images/sprite-1_fec9.png",
+          "size": 1150,
+          "chunks": [],
+          "chunkNames": [],
+          "emitted": true
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "index.html"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "index.html"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 413,
+          "names": [],
+          "files": [
+            "index.html"
+          ],
+          "hash": "010b838ddc6e09d62b3b",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/index.html",
+              "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\project\\webpack\\demo9-server\\node_modules\\html-loader\\index.js??ref--7-0!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/index.html",
+              "index": 0,
+              "index2": 1,
+              "size": 336,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "profile": {
+                "factory": 1122,
+                "building": 1141
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "D:\\project\\webpack\\demo9-server\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\index.html"
+                }
+              ],
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "module.exports = \"<!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n<head>\\r\\n  <meta charset=\\\"UTF-8\\\">\\r\\n  <title>Title</title>\\r\\n</head>\\r\\n<body>\\r\\n\\r\\n<div class=\\\"index\\\">\\r\\n  sdfsdfs sdf\\r\\n  <img src=\\\"\" + require(\"../../assets/images/sprite-1.png\") + \"\\\" alt=\\\"\\\">\\r\\n</div>\\r\\n<a href=\\\"main.html\\\">main</a>\\r\\n</body>\\r\\n</html>\";"
+            },
+            {
+              "id": "./src/assets/images/sprite-1.png",
+              "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\url-loader\\dist\\cjs.js??ref--6-0!D:\\project\\webpack\\demo9-server\\src\\assets\\images\\sprite-1.png",
+              "name": "./src/assets/images/sprite-1.png",
+              "index": 1,
+              "index2": 0,
+              "size": 77,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "D:\\project\\webpack\\demo9-server\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\project\\webpack\\demo9-server\\node_modules\\html-loader\\index.js??ref--7-0!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\index.html",
+              "issuerId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/index.html",
+              "issuerPath": [
+                {
+                  "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/index.html",
+                  "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\project\\webpack\\demo9-server\\node_modules\\html-loader\\index.js??ref--7-0!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/index.html",
+                  "profile": {
+                    "factory": 1122,
+                    "building": 1141
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 1346,
+                "building": 87
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [
+                "static/images/sprite-1_fec9.png"
+              ],
+              "reasons": [
+                {
+                  "moduleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/index.html",
+                  "moduleIdentifier": "D:\\project\\webpack\\demo9-server\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\project\\webpack\\demo9-server\\node_modules\\html-loader\\index.js??ref--7-0!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/index.html",
+                  "type": "cjs require",
+                  "userRequest": "../../assets/images/sprite-1.png",
+                  "loc": "1:209-252"
+                }
+              ],
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "module.exports = __webpack_public_path__ + \"static/images/sprite-1_fec9.png\";"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "",
+              "request": "D:\\project\\webpack\\demo9-server\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\index.html",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/index.html",
+          "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\project\\webpack\\demo9-server\\node_modules\\html-loader\\index.js??ref--7-0!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\index.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/index.html",
+          "index": 0,
+          "index2": 1,
+          "size": 336,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 1122,
+            "building": 1141
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "D:\\project\\webpack\\demo9-server\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\index.html"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "module.exports = \"<!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n<head>\\r\\n  <meta charset=\\\"UTF-8\\\">\\r\\n  <title>Title</title>\\r\\n</head>\\r\\n<body>\\r\\n\\r\\n<div class=\\\"index\\\">\\r\\n  sdfsdfs sdf\\r\\n  <img src=\\\"\" + require(\"../../assets/images/sprite-1.png\") + \"\\\" alt=\\\"\\\">\\r\\n</div>\\r\\n<a href=\\\"main.html\\\">main</a>\\r\\n</body>\\r\\n</html>\";"
+        },
+        {
+          "id": "./src/assets/images/sprite-1.png",
+          "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\url-loader\\dist\\cjs.js??ref--6-0!D:\\project\\webpack\\demo9-server\\src\\assets\\images\\sprite-1.png",
+          "name": "./src/assets/images/sprite-1.png",
+          "index": 1,
+          "index2": 0,
+          "size": 77,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\project\\webpack\\demo9-server\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\project\\webpack\\demo9-server\\node_modules\\html-loader\\index.js??ref--7-0!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\index.html",
+          "issuerId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/index.html",
+          "issuerPath": [
+            {
+              "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/index.html",
+              "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\project\\webpack\\demo9-server\\node_modules\\html-loader\\index.js??ref--7-0!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/index.html",
+              "profile": {
+                "factory": 1122,
+                "building": 1141
+              }
+            }
+          ],
+          "profile": {
+            "factory": 1346,
+            "building": 87
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+            "static/images/sprite-1_fec9.png"
+          ],
+          "reasons": [
+            {
+              "moduleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/index.html",
+              "moduleIdentifier": "D:\\project\\webpack\\demo9-server\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\project\\webpack\\demo9-server\\node_modules\\html-loader\\index.js??ref--7-0!D:\\project\\webpack\\demo9-server\\src\\pages\\index\\index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/index.html",
+              "type": "cjs require",
+              "userRequest": "../../assets/images/sprite-1.png",
+              "loc": "1:209-252"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "module.exports = __webpack_public_path__ + \"static/images/sprite-1_fec9.png\";"
+        }
+      ],
+      "filteredModules": 0,
+      "children": [],
+      "name": "html-webpack-plugin for \"index.html\""
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "D:\\project\\webpack\\demo9-server\\dist",
+      "assetsByChunkName": {},
+      "assets": [
+        {
+          "name": "main.html",
+          "size": 5019,
+          "chunks": [
+            0
+          ],
+          "chunkNames": [],
+          "emitted": false
+        },
+        {
+          "name": "static/images/sprite-2_6e36.png",
+          "size": 1757,
+          "chunks": [],
+          "chunkNames": [],
+          "emitted": true
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "main.html"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "main.html"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 466,
+          "names": [],
+          "files": [
+            "main.html"
+          ],
+          "hash": "440464921890c0d18868",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/main/index.html",
+              "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\project\\webpack\\demo9-server\\node_modules\\html-loader\\index.js??ref--7-0!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/main/index.html",
+              "index": 0,
+              "index2": 1,
+              "size": 389,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "profile": {
+                "factory": 2247,
+                "building": 8
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "D:\\project\\webpack\\demo9-server\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\index.html"
+                }
+              ],
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "module.exports = \"<!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n<head>\\r\\n  <meta charset=\\\"UTF-8\\\">\\r\\n  <title>Title</title>\\r\\n</head>\\r\\n<body>\\r\\n<div class=\\\"main\\\">\\r\\n  <img src=\\\"\" + require(\"../../assets/images/sprite-2.png\") + \"\\\" data-src=\\\"\" + require(\"../../assets/images/sprite-2.png\") + \"\\\" alt=\\\"\\\">\\r\\n  <div class=\\\"red\\\">hhhhhhhh sdfs</div>\\r\\n</div>\\r\\n</body>\\r\\n</html>\";"
+            },
+            {
+              "id": "./src/assets/images/sprite-2.png",
+              "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\url-loader\\dist\\cjs.js??ref--6-0!D:\\project\\webpack\\demo9-server\\src\\assets\\images\\sprite-2.png",
+              "name": "./src/assets/images/sprite-2.png",
+              "index": 1,
+              "index2": 0,
+              "size": 77,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "D:\\project\\webpack\\demo9-server\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\project\\webpack\\demo9-server\\node_modules\\html-loader\\index.js??ref--7-0!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\index.html",
+              "issuerId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/main/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/main/index.html",
+              "issuerPath": [
+                {
+                  "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/main/index.html",
+                  "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\project\\webpack\\demo9-server\\node_modules\\html-loader\\index.js??ref--7-0!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/main/index.html",
+                  "profile": {
+                    "factory": 2247,
+                    "building": 8
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 1386,
+                "building": 66
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [
+                "static/images/sprite-2_6e36.png"
+              ],
+              "reasons": [
+                {
+                  "moduleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/main/index.html",
+                  "moduleIdentifier": "D:\\project\\webpack\\demo9-server\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\project\\webpack\\demo9-server\\node_modules\\html-loader\\index.js??ref--7-0!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/main/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/main/index.html",
+                  "type": "cjs require",
+                  "userRequest": "../../assets/images/sprite-2.png",
+                  "loc": "1:187-230"
+                },
+                {
+                  "moduleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/main/index.html",
+                  "moduleIdentifier": "D:\\project\\webpack\\demo9-server\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\project\\webpack\\demo9-server\\node_modules\\html-loader\\index.js??ref--7-0!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/main/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/main/index.html",
+                  "type": "cjs require",
+                  "userRequest": "../../assets/images/sprite-2.png",
+                  "loc": "1:252-295"
+                }
+              ],
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "module.exports = __webpack_public_path__ + \"static/images/sprite-2_6e36.png\";"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "",
+              "request": "D:\\project\\webpack\\demo9-server\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\index.html",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/main/index.html",
+          "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\project\\webpack\\demo9-server\\node_modules\\html-loader\\index.js??ref--7-0!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\index.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/main/index.html",
+          "index": 0,
+          "index2": 1,
+          "size": 389,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 2247,
+            "building": 8
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "D:\\project\\webpack\\demo9-server\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\index.html"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "module.exports = \"<!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n<head>\\r\\n  <meta charset=\\\"UTF-8\\\">\\r\\n  <title>Title</title>\\r\\n</head>\\r\\n<body>\\r\\n<div class=\\\"main\\\">\\r\\n  <img src=\\\"\" + require(\"../../assets/images/sprite-2.png\") + \"\\\" data-src=\\\"\" + require(\"../../assets/images/sprite-2.png\") + \"\\\" alt=\\\"\\\">\\r\\n  <div class=\\\"red\\\">hhhhhhhh sdfs</div>\\r\\n</div>\\r\\n</body>\\r\\n</html>\";"
+        },
+        {
+          "id": "./src/assets/images/sprite-2.png",
+          "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\url-loader\\dist\\cjs.js??ref--6-0!D:\\project\\webpack\\demo9-server\\src\\assets\\images\\sprite-2.png",
+          "name": "./src/assets/images/sprite-2.png",
+          "index": 1,
+          "index2": 0,
+          "size": 77,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\project\\webpack\\demo9-server\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\project\\webpack\\demo9-server\\node_modules\\html-loader\\index.js??ref--7-0!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\index.html",
+          "issuerId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/main/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/main/index.html",
+          "issuerPath": [
+            {
+              "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/main/index.html",
+              "identifier": "D:\\project\\webpack\\demo9-server\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\project\\webpack\\demo9-server\\node_modules\\html-loader\\index.js??ref--7-0!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/main/index.html",
+              "profile": {
+                "factory": 2247,
+                "building": 8
+              }
+            }
+          ],
+          "profile": {
+            "factory": 1386,
+            "building": 66
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+            "static/images/sprite-2_6e36.png"
+          ],
+          "reasons": [
+            {
+              "moduleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/main/index.html",
+              "moduleIdentifier": "D:\\project\\webpack\\demo9-server\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\project\\webpack\\demo9-server\\node_modules\\html-loader\\index.js??ref--7-0!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/main/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/main/index.html",
+              "type": "cjs require",
+              "userRequest": "../../assets/images/sprite-2.png",
+              "loc": "1:187-230"
+            },
+            {
+              "moduleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/main/index.html",
+              "moduleIdentifier": "D:\\project\\webpack\\demo9-server\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\project\\webpack\\demo9-server\\node_modules\\html-loader\\index.js??ref--7-0!D:\\project\\webpack\\demo9-server\\src\\pages\\main\\index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/main/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/main/index.html",
+              "type": "cjs require",
+              "userRequest": "../../assets/images/sprite-2.png",
+              "loc": "1:252-295"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "module.exports = __webpack_public_path__ + \"static/images/sprite-2_6e36.png\";"
+        }
+      ],
+      "filteredModules": 0,
+      "children": [],
+      "name": "html-webpack-plugin for \"main.html\""
+    }
+  ]
+}

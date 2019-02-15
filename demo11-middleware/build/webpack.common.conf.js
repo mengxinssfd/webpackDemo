@@ -6,22 +6,22 @@ const developmentConfig = require('./webpack.dev.conf');
 const commonConfig = env => {
   return {
     entry: {
-      app: './src/app.js',
+      app: './src/app.js'
     },
     module: {
       rules: [
         {
           test: /\.less$/,
-          use: ['style-loader', 'css-loader', 'less-loader'],
-        },
-      ],
+          use: ['style-loader', 'css-loader', 'less-loader']
+        }
+      ]
     },
     plugins: [
       new Html({
         template: 'index.html',
-        filename: 'index.html',
-      }),
-    ],
+        filename: 'index.html'
+      })
+    ]
   };
 };
 

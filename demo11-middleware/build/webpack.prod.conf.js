@@ -3,9 +3,9 @@ var path = require('path');
 module.exports = {
   output: {
     path: path.resolve(__dirname, '../dist'),
-    filename: '[name].js',
+    filename: '[name].js'
   },
   plugins: [
-    new Clean(['dist']),
-  ],
+    new Clean(['dist'])
+  ]
 };

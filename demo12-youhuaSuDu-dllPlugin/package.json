@@ -1,31 +1,31 @@
 {
-  "name": "demo9-server",
+  "name": "demo12-youhuasudu-dllplugin",
   "version": "1.0.0",
-  "description": "",
+  "description": "使用DllPlugin与DllReferencePlugin优化打包速度",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server",
+    "build": "webpack --env production --config build/webpack.common.conf.js",
+    "dll": "webpack --config build/webpack.dll.conf.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "axios": "^0.18.0",
     "clean-webpack-plugin": "^1.0.1",
-    "compression-webpack-plugin": "^2.0.0",
     "css-loader": "^2.1.0",
+    "element-ui": "^2.5.4",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
-    "file-loader": "^3.0.1",
-    "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.3.1",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
-    "style-loader": "^0.23.1",
+    "lodash": "^4.17.11",
     "ts-loader": "^5.3.3",
     "typescript": "^3.3.3",
-    "url-loader": "^1.1.2",
+    "vue": "^2.6.6",
     "webpack": "^4.29.3",
     "webpack-bundle-analyzer": "^3.0.4",
-    "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.1.14"
+    "webpack-cli": "^3.2.3"
   }
 }
